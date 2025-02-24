@@ -5,6 +5,7 @@ export const routes: Routes = [
     path: '',
     loadComponent: () => import('./pages/home/home.component').then(c => c.HomeComponent)
   },
+
   {
     path: 'deferrable-views',
     loadComponent: () => import('./pages/deferrable-views/deferrable-views.component').then(c => c.DeferrableViewsComponent),
